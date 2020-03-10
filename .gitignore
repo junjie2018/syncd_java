@@ -1,0 +1,11 @@
+# go1.14.linux-amd64.tar.gz
+go/go1.14.linux-amd64.tar.gz
+
+# apache-maven-3.6.0-bin.tar.gz
+maven/apache-maven-3.6.0-bin.tar.gz
+maven/.m2/repository/**
+
+# 
+syncd/syncd
+
+software/**
