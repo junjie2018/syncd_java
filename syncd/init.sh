@@ -69,5 +69,6 @@ source /etc/profile
 cd ${baseDir}/software/syncd-deploy && nohup ./bin/syncd >logs_syncd 1>logs_nohup &
 
 
-
+baseDir=$(pwd) \
+    && cd ${baseDir}/software/syncd-deploy && nohup ./bin/syncd >logs_syncd 1>logs_nohup &
 
